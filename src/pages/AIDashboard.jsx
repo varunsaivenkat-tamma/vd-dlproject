@@ -34,7 +34,7 @@ export default function AIDashboard() {
   }, []);
 
   // API Configuration
-  const API_BASE_URL = "http://127.0.0.1:5000";
+  const API_BASE_URL = "https://vehicle-damage-dl-backend.onrender.com";
   const ENDPOINTS = {
     VEHICLE_BRANDS: `${API_BASE_URL}/vehicle-brands`,
     PREDICT: `${API_BASE_URL}/predict`,
