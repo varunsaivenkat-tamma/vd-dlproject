@@ -130,7 +130,7 @@ function GlowCarousel() {
       <div className="relative w-full whitespace-nowrap">
         <div
           ref={trackRef}
-          className="inline-flex gap-8 px-6 will-change-transform"
+          className="inline-flex gap-9 px-6 will-change-transform"
         >
           {[...images, ...images].map((src, i) => (
             <div
