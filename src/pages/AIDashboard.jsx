@@ -34,12 +34,12 @@ export default function AIDashboard() {
   }, []);
 
   // API Configuration
-  const API_BASE_URL = "https://vehicle-damage-dl-backend.onrender.com";
+  const API_BASE_URL = "https://vehicle-damage-dl-backend.onrender.com/";
   const ENDPOINTS = {
-    VEHICLE_BRANDS: `${API_BASE_URL}/vehicle-brands`,
-    PREDICT: `${API_BASE_URL}/predict`,
-    HEALTH: `${API_BASE_URL}/health`,
-    STATIC: `${API_BASE_URL}/static`
+    VEHICLE_BRANDS: `${API_BASE_URL}vehicle-brands`,
+    PREDICT: `${API_BASE_URL}predict`,
+    HEALTH: `${API_BASE_URL}health`,
+    STATIC: `${API_BASE_URL}static`
   };
 
   // Backend Connection
